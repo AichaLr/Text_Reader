@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ffefea;
+  min-height: 100vh;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  margin: auto;
+  padding: 20px;
+}
+.btn {
+  cursor: pointer;
+  background-color: darksalmon;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:focus,
+select:focus {
+}
