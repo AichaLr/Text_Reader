@@ -75,9 +75,16 @@ select:focus {
   border-radius: 4px;
 }
 .text-box button {
-  margin: 10px 45%;
+  margin: 10px 37%;
+  padding: 6px 32px;
+  width: 137px;
 }
 
+.text-box .close {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+}
 main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -114,6 +121,9 @@ main {
   padding: 10px;
   text-align: center;
   height: 100%;
+}
+.text-box.show {
+  transform: translate(-50%, 0);
 }
 
 @media (max-width: 1100px) {
